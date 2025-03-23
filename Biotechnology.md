@@ -51,6 +51,13 @@ DNA microarray：DNA微阵列技术
 Southern blot：DNA印记
 Fluorescent in situ hybridization (FISH) ：荧光原位杂交
 
+#### DNA Cloning
+
+three Ts of introducing foreign DNA:
+
+- Transformation：转化
+- Transfection：转染
+- Transduction：转导
 
 #### PCR
 
@@ -69,6 +76,32 @@ Vector：载体
 directional cloning：定向克隆
 Gibson assembly：无缝连接
 competent cell：感受态细胞
+
+#### Gene silencing
+
+Antisense oligonucleotide (ASO) ：反义寡核苷酸
+RNA interference (RNAi) ：RNA干扰/干涉
+CRISPR interference (CRISPRi) ：CRISPR干扰/干涉
+Ribozyme：核酶
+interruption：中断
+suppression：抑制
+
+#### Protein detection and proteomics
+
+SDS-PAGE：蛋白电泳
+Two-dimensional PAGE：二维/双向电泳
+
+- First dimension：protein separation by pl value/isoelectric focusing (IEF，等电聚焦)
+- Second dimension：protein separation by molecular weight
+
+Western Blot：免疫印迹
+Immuno-staining：免疫染色
+
+- Immunocytochemistry (ICC) ：免疫细胞化学
+- Immunohistochemistry (IHC) ：免疫组织化学
+
+ELISA：酶联免疫吸附法
+Mass Spectrometry：质谱
 
 ### 抗生素
 
