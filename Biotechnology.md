@@ -1,4 +1,4 @@
-### 英语单词
+### $$Words$$
 
 #### DNA
 
@@ -58,6 +58,20 @@ three Ts of introducing foreign DNA:
 - Transformation：转化
 - Transfection：转染
 - Transduction：转导
+
+### DNA sequencing
+
+#### Sanger sequencing
+
+dideoxyribonucleotide chain-termination method：双脱氧链终止法
+
+#### Auto-sanger sequencing
+
+Four-color-fluorescence method：四色荧光法
+
+#### Solexa technology (Illumina sequencing)
+
+Average depth for sequencing：测序深度
 
 #### PCR
 
@@ -138,3 +152,25 @@ arsenic：砒霜
 
 Chronic myeloid leukemia (CML) ：慢性粒细胞白血病
 Cervical carcinoma：宫颈癌
+
+### $$Notes$$
+
+#### PCR
+
+Test-tube chemical reaction：
+
+- DNA template (with "target" DNA)
+- DNA polymerase
+- dNTP
+- primers
+
+Tempereture：
+
+- Denaturing：90℃
+- Primers anneal：55℃
+- Polymerization：72℃
+
+#### DNA sequencing
+
+Average depth for sequencing (测序深度)=LN/G, where L is the read length, N is the number of reads and G is the haploid genome length
+The higher the average depth is, the more accurate the sequencing will be.
