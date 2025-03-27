@@ -72,6 +72,171 @@
 
 ##### $$\lim_{x\rightarrow a}f(g(x))=f\left(\lim_{x\rightarrow a}g(x)\right)$$
 
+### $Intergration$
+
+
+以下是一些常用的积分公式，涵盖了三角函数、分子分母次数不等、反三角函数和双曲三角函数等常见情况：
+
+### 1. 基本积分公式
+
+- 常数积分：
+  \[
+  \int a \, dx = ax + C
+  \]
+
+- 幂函数积分：
+  \[
+  \int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)
+  \]
+
+### 2. 三角函数积分
+
+- 正弦函数：
+  \[
+  \int \sin x \, dx = -\cos x + C
+  \]
+
+- 余弦函数：
+  \[
+  \int \cos x \, dx = \sin x + C
+  \]
+
+- 正切函数：
+  \[
+  \int \tan x \, dx = -\ln |\cos x| + C
+  \]
+
+- 余切函数：
+  \[
+  \int \cot x \, dx = \ln |\sin x| + C
+  \]
+
+- 正割函数：
+  \[
+  \int \sec x \, dx = \ln |\sec x + \tan x| + C
+  \]
+
+- 余割函数：
+  \[
+  \int \csc x \, dx = \ln |\csc x - \cot x| + C
+  \]
+  \[
+  \int \sec^2 x \, dx = \tan x + C
+  \]
+  \[
+  \int \csc^2 x \, dx = -\cot x + C
+  \]
+  \[
+  \int \sec x \tan x \, dx = \sec x + C
+  \]
+  \[
+  \int \csc x \cot x \, dx = -\csc x + C
+  \]
+
+### 3. 反三角函数积分
+
+- 反正弦函数：
+  \[
+  \int \frac{dx}{\sqrt{1 - x^2}} = \arcsin x + C
+  \]
+
+- 反余弦函数：
+  \[
+  \int \frac{dx}{\sqrt{1 - x^2}} = \arccos x + C
+  \]
+
+- 反正切函数：
+  \[
+  \int \frac{dx}{1 + x^2} = \arctan x + C
+  \]
+
+- 反余切函数：
+  \[
+  \int \frac{dx}{x^2 + 1} = \text{arccot}\,x + C
+  \]
+
+### 4. 双曲三角函数积分
+
+- 双曲正弦函数：
+  \[
+  \int \sinh x \, dx = \cosh x + C
+  \]
+
+- 双曲余弦函数：
+  \[
+  \int \cosh x \, dx = \sinh x + C
+  \]
+
+- 双曲正切函数：
+  \[
+  \int \tanh x \, dx = \ln |\cosh x| + C
+  \]
+
+- 双曲余切函数：
+  \[
+  \int \coth x \, dx = \ln |\sinh x| + C
+  \]
+
+- 双曲正割函数：
+  \[
+  \int \text{sech} x \, dx = 2 \arctan(\tanh \frac{x}{2}) + C
+  \]
+
+- 双曲余割函数：
+  \[
+  \int \text{csch} x \, dx = \ln |\coth x - \text{csch} x| + C
+  \]
+
+### 5. 分子分母次数不等的积分
+
+对于分子分母次数不等的积分，通常需要进行部分分式分解、代换或使用特定的技巧。例如：
+
+- 分式 \( \int \frac{1}{x^2 + 1} dx \) 可以使用反正切函数：
+  \[
+  \int \frac{dx}{x^2 + 1} = \arctan x + C
+  \]
+
+- 分式 \( \int \frac{1}{x} dx \) 结果是对数函数：
+  \[
+  \int \frac{dx}{x} = \ln |x| + C
+  \]
+
+### 6. 其他常见积分
+
+- 指数函数：
+  \[
+  \int e^x \, dx = e^x + C
+  \]
+
+- 复合函数的积分：利用代换法。
+- 换元法
+换元法是将复杂的积分转化为更简单的形式。设 \( u = g(x) \)，则有：
+\[
+\int f(g(x)) \cdot g'(x) \, dx = \int f(u) \, du
+\]
+常见的应用：
+    - \( \int e^{x^2} \cdot 2x \, dx \) 通过令 \( u = x^2 \) 来简化。
+
+- 分部积分法
+分部积分法基于公式：
+\[
+\int u \, dv = uv - \int v \, du
+\]
+常用于处理积的积分，例如：
+\[
+\int x e^x \, dx
+\]
+可以选择 \( u = x \) 和 \( dv = e^x \, dx \)。
+
+### 7. 特殊积分
+
+- **高斯积分**：
+- 
+  \[
+  \int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}
+  \]
+- **贝塔函数与伽马函数**：有时积分可以通过与贝塔函数或伽马函数的关系来计算。
+
 ### $Words:$
 
 #### $Indeterminate~Form~不定式\\Monotone~单调\\Bounded~有界\\Euclidean~space~欧几里得空间\\Injectivity~单射\\ Surjective~满射\\Bijective~双射\\Inverse~Function~反函数\\Union~并集~A\bigcup B\\Intersection~交集~A\bigcap B\\Complement~补集\\Disjoint~互斥\\$
