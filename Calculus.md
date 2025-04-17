@@ -237,6 +237,48 @@
   \]
 - **贝塔函数与伽马函数**：有时积分可以通过与贝塔函数或伽马函数的关系来计算。
 
+### 牛顿-莱布尼兹公式&莱布尼兹法则
+
+#### 1. 第一部分：定积分的求值
+
+如果函数 \( f(x) \) 在区间 \( [a, b] \) 上连续，则定积分可以通过原函数来表示：
+
+\[
+\int_a^b f(x) \, dx = F(b) - F(a)
+\]
+
+其中 \( F(x) \) 是 \( f(x) \) 的一个原函数，也就是说，\( F'(x) = f(x) \)。
+
+#### 2. 第二部分：导数与定积分的关系
+
+如果我们有一个函数 \( F(x) \)，它是一个依赖于变量 \( x \) 的定积分，且积分的上下限与 \( x \) 有关，即：
+
+\[
+F(x) = \int_a^{g(x)} f(t) \, dt
+\]
+
+这里，\( g(x) \) 是 \( x \) 的一个函数，且 \( f(t) \) 是关于 \( t \) 的函数。牛顿-莱布尼兹公式的第二部分告诉我们，\( F(x) \) 对 \( x \) 的导数是：
+
+\[
+\frac{d}{dx} \left( \int_a^{g(x)} f(t) \, dt \right) = f(g(x)) \cdot g'(x)
+\]
+
+#### 3.莱布尼兹法则
+
+假设我们有一个定积分：
+
+\[
+F(x) = \int_{g_1(x)}^{g_2(x)} f(t) \, dt
+\]
+
+其中，\(g_1(x)\) 和 \(g_2(x)\) 都是关于 \(x\) 的函数，\(f(t)\) 是被积函数，且我们需要求 \(F(x)\) 对 \(x\) 的导数。
+
+根据 **莱布尼兹法则**，我们可以求出导数：
+
+\[
+\frac{d}{dx} \left( \int_{g_1(x)}^{g_2(x)} f(t) \, dt \right) = f(g_2(x)) \cdot \frac{d}{dx} g_2(x) - f(g_1(x)) \cdot \frac{d}{dx} g_1(x)
+\]
+
 ### $Words:$
 
 #### $Indeterminate~Form~不定式\\Monotone~单调\\Bounded~有界\\Euclidean~space~欧几里得空间\\Injectivity~单射\\ Surjective~满射\\Bijective~双射\\Inverse~Function~反函数\\Union~并集~A\bigcup B\\Intersection~交集~A\bigcap B\\Complement~补集\\Disjoint~互斥\\$
