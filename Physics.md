@@ -1,6 +1,6 @@
 # $$Physics$$
 
-## $$General~Physics~I$$
+## $$Honor~General~Physics~I$$
 
 ### $$\text{Module 1 : Mechanics basics}$$
 
@@ -300,7 +300,7 @@ $$
 \\
 \,
 \\
-v=\sqrt{\frac{\tau}{\mu}}\,(\text{speed})
+v=\sqrt{\frac{\tau}{\mu}}\,(\text{speed})\,(\tau \text{ is tension in N})
 $$
 
 ##### $\text{Energy and Power of a Wave Travelling along a String}$
@@ -418,3 +418,119 @@ sin\theta=\frac{v}{v_S}
 $$
 
 ### $$\text{Module 3 : Thermodynamics}$$
+
+#### $$\text{Fluids}$$
+
+##### $\text{Fluids basics}$
+
+##### $\text{Pascal's Principle}$
+
+##### $\text{Archimedes' Principle}$
+
+##### $\text{Ideal Fuilds}$
+
+##### $\text{Bernoulli's Equation}$
+
+#### $$\text{The First Law of Thermodynamics}$$
+
+##### $\text{Temperature}$
+
+- Kelvins is an SI base quantity
+
+$$
+T_C=T-273.15
+\\
+\,
+\\
+T_F=\frac{9}{5}T_C+32°
+$$
+
+##### $\text{Zeroth law of thermodynamics}$
+
+- if A and B are each in thermal equilibrium with T , then A and B are in thermal equilibrium with each other.
+
+##### $\text{Heat capacity}$
+
+
+
+##### $\text{First law of thermodynamics}$
+
+$$
+W=\int dW=\int_{v_i}^{v_f}p\,dV
+\\
+\,
+\\
+$$
+
+Process|Restriction|Consequence
+---|---|---
+Adiabatic|$Q=0$|$\varDelta E_{int}=-W$
+Constant volume|$W=0$|$\varDelta E_{int}=Q$
+Closed cycle|$\varDelta E_{int}=0$|$Q=W$
+Free expansion|$Q=W=0$|$\varDelta E_{int}=0$
+
+##### $\text{Kinetic Theory of Gases}$
+
+$$N_A=6.02\times 10^{23}mol^{-1}
+\\
+\,
+\\
+n=\frac{M_{sam}}{M}=\frac{M_{sam}}{mN_A}=\frac{N}{N_A}
+$$
+
+- ideal gases
+
+$\text{R is a constant = }8.31J/mol·K$
+$\text{k is the Boltzmann constant = }1.380649\,\times\,10^{-23}J/K$
+
+$$
+pV=nRT
+\\
+\,
+\\
+pV=NkT
+\\
+\,
+\\
+W=nRT\,ln\frac{V_f}{V_i}
+\\
+\,
+\\
+p=\frac{nMv_{rms}^2}{3V}
+\\
+\,
+\\
+v_{rms}=\sqrt{\frac{3RT}{M}}
+$$
+
+- Translational Kinetic Energy
+
+$$
+K_{avg}=\frac{1}{2}m(v^2)_{avg}=\frac{1}{2}mv_{rms}^2=\frac{1}{2}m\frac{3RT}{2N_A}=\frac{3}{2}kT
+$$
+
+##### $\text{Specific Heat}$
+
+- Molar Specific Heat at Constant Volume
+
+$$
+E_{int}=\frac{3}{2}nRT
+\\
+\,
+\\
+C_p=\frac{Q}{n\varDelta T}
+\\
+\,
+\\
+\varDelta E_{int}=Q-W
+\\
+\,
+\\
+W=p\varDelta V=nR\varDelta T
+\\
+\,
+\\
+\rightarrow C_p=C_V+R=\frac{5}{2}R\,\text{(monoatomic)}
+$$
+
+##### $\text{Maxwell Speed Distribution}$
