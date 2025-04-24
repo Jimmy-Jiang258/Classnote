@@ -451,8 +451,6 @@ $$
 
 ##### $\text{Heat capacity}$
 
-
-
 ##### $\text{First law of thermodynamics}$
 
 $$
@@ -531,6 +529,32 @@ W=p\varDelta V=nR\varDelta T
 \,
 \\
 \rightarrow C_p=C_V+R=\frac{5}{2}R\,\text{(monoatomic)}
+\\
+\,
+\\
+C_V=(\frac{f}{2})R
+$$
+
+- Adiabatic Expansion of an Ideal Gas
+
+$$
+nC_V\,dT=dE_{int}=dQ-\,dW=-p\,dV
+\\
+\,
+\\
+pV=nRT \rightarrow dp\,V+p\,dV=nR\,dT
+\\
+\,
+\\
+C_P=C_V+R \rightarrow V\,dp+p\,dV·\frac{C_P}{C_V}=0
+\\
+\,
+\\
+lnp+lnV·\frac{C_P}{C_V}=constant
+\\
+\,
+\\
+\rightarrow pV^\gamma= constant
 $$
 
 ##### $\text{Maxwell Speed Distribution}$
