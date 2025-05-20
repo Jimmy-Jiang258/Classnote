@@ -417,8 +417,6 @@ f'=f\frac{v\pm v_D}{v\pm v_S}
 sin\theta=\frac{v}{v_S}
 $$
 
-### $$\text{Module 3 : Thermodynamics}$$
-
 #### $$\text{Fluids}$$
 
 ##### $\text{Fluids basics}$
@@ -431,11 +429,16 @@ $$
 
 ##### $\text{Bernoulli's Equation}$
 
+### $$\text{Module 3 : Thermodynamics}$$
+
 #### $$\text{The First Law of Thermodynamics}$$
 
 ##### $\text{Temperature}$
 
 - Kelvins is an SI base quantity
+
+$T = (273.16\, \text{K}) \left( \lim_{\text{gas} \to 0} \frac{p}{p_3} \right)$
+
 
 $$
 T_C=T-273.15
@@ -449,7 +452,37 @@ $$
 
 - if A and B are each in thermal equilibrium with T , then A and B are in thermal equilibrium with each other.
 
-##### $\text{Heat capacity}$
+##### $\text{Absorption of Heat}$
+
+$\text{Heat capacity - C}\\\text{specific heat - c}\\\text{heat of transformation - L}$
+$$
+Q=C \varDelta T = C(T_f - T_i)
+\\
+\,
+\\
+Q=cm \varDelta T = cm(T_f -T_i)
+\\
+\,
+\\
+Q=Lm
+$$
+
+| Substance     | State  | Specific Heat (Cal/g·K) | Specific Heat (J/kg·K) | Molar Specific Heat (J/mol·K) |
+| ------------- | ------ | ----------------------- | ---------------------- | ----------------------------- |
+| Lead          | Solid  | 0.0305                  | 128                    | 26.5                          |
+| Tungsten      | Solid  | 0.0321                  | 134                    | 24.8                          |
+| Silver        | Solid  | 0.0564                  | 236                    | 25.5                          |
+| Copper        | Solid  | 0.0923                  | 386                    | 24.5                          |
+| Aluminum      | Solid  | 0.215                   | 900                    | 24.4                          |
+| Brass         | Solid  | 0.092                   | 380                    | -                             |
+| Granite       | Solid  | 0.19                    | 790                    | -                             |
+| Glass         | Solid  | 0.20                    | 840                    | -                             |
+| Ice (−10°C)   | Solid  | 0.530                   | 2220                   | -                             |
+| Mercury       | Liquid | 0.033                   | 140                    | -                             |
+| Ethyl alcohol | Liquid | 0.58                    | 2430                   | -                             |
+| Seawater      | Liquid | 0.93                    | 3900                   | -                             |
+| Water         | Liquid | 1.00                    | 4187                   | -                             |
+
 
 ##### $\text{First law of thermodynamics}$
 
@@ -458,6 +491,11 @@ W=\int dW=\int_{v_i}^{v_f}p\,dV
 \\
 \,
 \\
+\varDelta E_{int}=E_{int,f}-E_{int,i}=Q-W
+\\
+\,
+\\
+dE_{int}=dQ-dW
 $$
 
 Process|Restriction|Consequence
@@ -467,7 +505,31 @@ Constant volume|$W=0$|$\varDelta E_{int}=Q$
 Closed cycle|$\varDelta E_{int}=0$|$Q=W$
 Free expansion|$Q=W=0$|$\varDelta E_{int}=0$
 
-##### $\text{Kinetic Theory of Gases}$
+##### $\text{Heat Transfer Mechanisms}$
+
+- $\text{Thermal Conduction}$
+
+  $\text{rate - }P_{cond}$
+
+  $$
+  P_{cond}=\frac{Q}{t}=kA\frac{T_H-T_C}{L}
+  $$
+
+- $\text{Convection}$
+
+- $\text{Thermal Radiation (Stefan-Boltzmann law)}$
+  $\sigma = 5.6704 \times 10^{-8} W/m^2 ·K^4$
+  $$
+  P_{rad}= \sigma \varepsilon AT^4
+  \\
+  \,
+  \\
+  P_{abs} = \sigma \varepsilon A T_{env}^4
+  $$
+
+#### $$\text{Kinetic Theory of Gases}$$
+
+##### $\text{Avogadro's Number}$
 
 $$N_A=6.02\times 10^{23}mol^{-1}
 \\
@@ -476,7 +538,7 @@ $$N_A=6.02\times 10^{23}mol^{-1}
 n=\frac{M_{sam}}{M}=\frac{M_{sam}}{mN_A}=\frac{N}{N_A}
 $$
 
-- ideal gases
+##### $\text{Ideal Gas}$
 
 $\text{R is a constant = }8.31J/mol·K$
 $\text{k is the Boltzmann constant = }1.380649\,\times\,10^{-23}J/K$
@@ -491,6 +553,11 @@ pV=NkT
 \,
 \\
 W=nRT\,ln\frac{V_f}{V_i}
+$$
+
+##### $\text{Pressure, Temperature, and rms Speed}$
+
+$$
 \\
 \,
 \\
@@ -501,10 +568,52 @@ p=\frac{nMv_{rms}^2}{3V}
 v_{rms}=\sqrt{\frac{3RT}{M}}
 $$
 
-- Translational Kinetic Energy
+| Gas                  | Molar Mass (g/mol) | $v_{\text{rms}}$ (m/s) |
+| -------------------- | ------------------ | ---------------------- |
+| Hydrogen (H₂)        | 2.02               | 1920                   |
+| Helium (He)          | 4.00               | 1370                   |
+| Water vapor (H₂O)    | 18.0               | 645                    |
+| Nitrogen (N₂)        | 28.0               | 517                    |
+| Oxygen (O₂)          | 32.0               | 483                    |
+| Carbon dioxide (CO₂) | 44.0               | 412                    |
+| Sulfur dioxide (SO₂) | 64.1               | 342                    |
+
+##### $\text{Translational Kinetic Energy}$
 
 $$
 K_{avg}=\frac{1}{2}m(v^2)_{avg}=\frac{1}{2}mv_{rms}^2=\frac{1}{2}m\frac{3RT}{2N_A}=\frac{3}{2}kT
+$$
+
+##### $\text{Mean Free Path}$
+
+$$
+\lambda = \frac{1}{\sqrt{2}\pi d^2 \frac{N}{V}}
+$$
+
+##### $\text{The Distribution of Molecular Speed}$
+
+$$
+P(v) = 4\pi (\frac{M}{2\pi RT})^{\frac{3}{2}}v^2e^{\frac{-Mv^2}{2RT}}
+\\
+\,
+\\
+\int _0^\infin P(v)dv=1
+\\
+\,
+\\
+frac=\int _{v1}^{v2} P(v)dv
+\\
+\,
+\\
+v_{avg}=\int _0^\infin vP(v)dv = \sqrt{\frac{8RT}{\pi M}}\text{(average speed)}
+\\
+\,
+\\
+v_{rms}=\sqrt{\int _0^\infin v^2P(v)dv } = \sqrt{\frac{3RT}{M}}\text{(rms speed)}
+\\
+\,
+\\
+v_p=\sqrt{\frac{2RT}{M}} \text{(most probable speed)}
 $$
 
 ##### $\text{Specific Heat}$
@@ -557,4 +666,38 @@ lnp+lnV·\frac{C_P}{C_V}=constant
 \rightarrow pV^\gamma= constant
 $$
 
+##### $\text{Mean Free Path of Gases}$
+
+$$
+\lambda = \frac{1}{\sqrt{2}\pi d^2 \frac{N}{V}}
+$$
+
+- Proof:
+  
+$$
+\lambda = \frac{\text{length of path}}{\text{number of collisions}}=\frac{v_{ave}\varDelta t}{\pi d^2 v_{rel}\varDelta t \frac{N}{V}}
+$$
+
 ##### $\text{Maxwell Speed Distribution}$
+
+$$
+v_{avg}=\int _0^\infin vP(v)dv=\sqrt{\frac{8RT}{\pi M}}\,(\text{average speed})
+\\
+\,
+\\
+v_{rms}
+$$
+
+##### $\text{Heat Transfer Mechanisms}$
+
+$$
+P_{cond}=\frac{Q}{t}=kA\frac{T_H-T_C}{L}
+$$
+
+#### $$\text{Entropy and the Second Law of Thermodynamics}$$
+
+##### $\text{Entropy}$
+
+##### $\text{Irreveersible Process}$
+
+##### $\text{}$
