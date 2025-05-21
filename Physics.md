@@ -700,6 +700,107 @@ $$
 
 ##### $\text{Entropy}$
 
-##### $\text{Irreveersible Process}$
+$$
+\text{let } \varDelta E_{int}=0 \text{ as temperature keeps the same}
+\\
+\,
+\\
+W = \int PdV =Q
+\\
+\,
+\\
+\varDelta S=S_f-S_i=\int _i^f \frac{dQ_{rev}}{T}\text{ (define the entropy change)}
+\\
+\,
+\\
+\text{For ideal gas, we have:}
+\\
+\,
+\\
+dE_{int}=dQ-dW
+\\
+\,
+\\
+dW=pdV
+\\
+\,
+\\
+dE_{int}=nC_VdT
+\\
+\,
+\\
+dQ=pdV+nC_VdT
+\\
+\,
+\\
+\frac{dQ}{T}=nR\frac{dV}{V}+nC_V\frac{dT}{T}
+\\
+\,
+\\
+\varDelta S=\int _i^f\frac{dQ}{T}=nR\int _i^f\frac{dV}{V}+nC_V\int _i^f\frac{dT}{T}=nR\ln \frac{V_f}{V_i}+nC_V\ln \frac{T_f}{T_i}
+\\
+\,
+\\
+\varDelta S \geq 0\text{ (second law of thermodynamics)}
+$$
 
-##### $\text{}$
+##### $\text{Entropy in the Real World:Engines}$
+
+- $\text{Carnot Engine}$
+
+![alt text](E:/HKUST-GZ/Class/classnote/Physics_image/image.png)
+![alt text](E:/HKUST-GZ/Class/classnote/Physics_image/image-1.png)
+
+$$
+\eta = \frac{\text{energy we get}}{\text{energy we pay for}}=\frac{|W|}{|Q_H|}
+\\
+\,
+\\
+\eta _C=1 - \frac{T_L}{T_H}\text{ (Efficiency of Carnot Engine)}
+$$
+
+##### $\text{Refrigerators and Real Engines}$
+
+$$
+\eta = \frac{W}{Q} \lt \eta _C \text{ (For Stirling Efficiency)}
+\\
+\,
+\\
+\varepsilon _A \le 1-\frac{T_L}{T_H} = \varepsilon _C\text{ (For Arbitrary Engine Efficiency)}
+$$
+
+##### $\text{A Statistical View of Entropy}$
+
+$$
+W = C_N^{n1} = \frac{N!}{n1!·n2!} \text{ (multiplicity of configuration)}
+$$
+
+| Label | $n_1$ | $n_2$ | Multiplicity $W$ | Calculation of $W$     | Entropy $(10^{-23} \, \text{J/K})$ |
+| ----- | ----- | ----- | ---------------- | ---------------------- | ---------------------------------- |
+| I     | 6     | 0     | 1                | $\frac{6!}{6!0!} = 1$  | 0.00                               |
+| II    | 5     | 1     | 6                | $\frac{6!}{5!1!} = 6$  | 2.47                               |
+| III   | 4     | 2     | 15               | $\frac{6!}{4!2!} = 15$ | 3.74                               |
+| IV    | 3     | 3     | 20               | $\frac{6!}{3!3!} = 20$ | 4.13                               |
+| V     | 2     | 4     | 15               | $\frac{6!}{2!4!} = 15$ | 3.74                               |
+| VI    | 1     | 5     | 6                | $\frac{6!}{1!5!} = 6$  | 2.47                               |
+| VII   | 0     | 6     | 1                | $\frac{6!}{0!6!} = 1$  | 0.00                               |
+
+$$\sum W = 64$$
+
+$$
+S=k \ln W \text{ (Boltzmann's entropy equation)}
+\\
+\,
+\\
+k = 1.38 \times 10^{-23} J/K
+\\
+\,
+\\
+\text{When N is very large:}
+\\
+\,
+\\
+\ln N!\approx N(\ln N)-N\text{ (Stirling's approximation)}
+$$
+
+![alt text](e:/HKUST-GZ/Class/classnote/Physics_image/image-2.png)
