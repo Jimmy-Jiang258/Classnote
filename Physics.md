@@ -804,3 +804,11 @@ k = 1.38 \times 10^{-23} J/K
 $$
 
 ![alt text](e:/HKUST-GZ/Class/classnote/Physics_image/image-2.png)
+
+#### $$\text{Words}$$
+
+- $\text{Monatomic：单原子}$
+- $\text{diatomic：双原子}$
+- $\text{adiabatic：绝热}$
+- $\text{isothermal：等温}$
+- $\text{}$
