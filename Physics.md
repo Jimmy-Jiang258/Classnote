@@ -439,7 +439,6 @@ $$
 
 $T = (273.16\, \text{K}) \left( \lim_{\text{gas} \to 0} \frac{p}{p_3} \right)$
 
-
 $$
 T_C=T-273.15
 \\
@@ -483,7 +482,6 @@ $$
 | Seawater      | Liquid | 0.93                    | 3900                   | -                             |
 | Water         | Liquid | 1.00                    | 4187                   | -                             |
 
-
 ##### $\text{First law of thermodynamics}$
 
 $$
@@ -498,12 +496,12 @@ W=\int dW=\int_{v_i}^{v_f}p\,dV
 dE_{int}=dQ-dW
 $$
 
-Process|Restriction|Consequence
----|---|---
-Adiabatic|$Q=0$|$\varDelta E_{int}=-W$
-Constant volume|$W=0$|$\varDelta E_{int}=Q$
-Closed cycle|$\varDelta E_{int}=0$|$Q=W$
-Free expansion|$Q=W=0$|$\varDelta E_{int}=0$
+|Process|Restriction|Consequence|
+|---|---|---|
+|Adiabatic|$Q=0$|$\varDelta E_{int}=-W$|
+|Constant volume|$W=0$|$\varDelta E_{int}=Q$|
+|Closed cycle|$\varDelta E_{int}=0$|$Q=W$|
+|Free expansion|$Q=W=0$|$\varDelta E_{int}=0$|
 
 ##### $\text{Heat Transfer Mechanisms}$
 
@@ -590,6 +588,12 @@ $$
 \lambda = \frac{1}{\sqrt{2}\pi d^2 \frac{N}{V}}
 $$
 
+- Proof:
+  
+$$
+\lambda = \frac{\text{length of path}}{\text{number of collisions}}=\frac{v_{ave}\varDelta t}{\pi d^2 v_{rel}\varDelta t \frac{N}{V}}
+$$
+
 ##### $\text{The Distribution of Molecular Speed}$
 
 $$
@@ -616,7 +620,7 @@ v_{rms}=\sqrt{\int _0^\infin v^2P(v)dv } = \sqrt{\frac{3RT}{M}}\text{(rms speed)
 v_p=\sqrt{\frac{2RT}{M}} \text{(most probable speed)}
 $$
 
-##### $\text{Specific Heat}$
+##### $\text{The Molar Specific Heats of An Ideal Gas}$
 
 - Molar Specific Heat at Constant Volume
 
@@ -625,6 +629,24 @@ E_{int}=\frac{3}{2}nRT
 \\
 \,
 \\
+Q = nC_V\varDelta T \text{(constant volume)}
+\\
+\,
+\\
+\varDelta E_{int}=Q-W
+\\
+\,
+\\
+W=p\varDelta V=0
+\\
+\,
+\\
+C_V=\frac{3}{2}R=12.5J/mol·K \text{(monatomic gas)}
+$$
+
+- Molar Specific Heat at Constant Pressure
+
+$$
 C_p=\frac{Q}{n\varDelta T}
 \\
 \,
@@ -637,14 +659,22 @@ W=p\varDelta V=nR\varDelta T
 \\
 \,
 \\
-\rightarrow C_p=C_V+R=\frac{5}{2}R\,\text{(monoatomic)}
-\\
-\,
-\\
-C_V=(\frac{f}{2})R
+C_p=C_V+R=\frac{5}{2}R\text{(monatomic)}
 $$
 
-- Adiabatic Expansion of an Ideal Gas
+##### $\text{Degree of Freedom and Molar Specific Heats}$
+
+$$
+C_V=(\frac{f}{2})R=4.16f \, J/mol·K
+$$
+
+| Molecule Type | Example | Translational | Rotational | Total $f$ | $C_V$ (Equation 19-51) | $C_P = C_V + R$ |
+| ------------- | ------- | ------------- | ---------- | --------- | ---------------------- | --------------- |
+| Monatomic     | He      | 3             | 0          | 3         | $\frac{3}{2}R$         | $\frac{5}{2}R$  |
+| Diatomic      | O₂      | 3             | 2          | 5         | $\frac{5}{2}R$         | $\frac{7}{2}R$  |
+| Polyatomic    | CH₄     | 3             | 3          | 6         | $3R$                   | $4R$            |
+
+##### $\text{The Adiabatic Expansion of an Ideal Gas}$
 
 $$
 nC_V\,dT=dE_{int}=dQ-\,dW=-p\,dV
@@ -664,34 +694,6 @@ lnp+lnV·\frac{C_P}{C_V}=constant
 \,
 \\
 \rightarrow pV^\gamma= constant
-$$
-
-##### $\text{Mean Free Path of Gases}$
-
-$$
-\lambda = \frac{1}{\sqrt{2}\pi d^2 \frac{N}{V}}
-$$
-
-- Proof:
-  
-$$
-\lambda = \frac{\text{length of path}}{\text{number of collisions}}=\frac{v_{ave}\varDelta t}{\pi d^2 v_{rel}\varDelta t \frac{N}{V}}
-$$
-
-##### $\text{Maxwell Speed Distribution}$
-
-$$
-v_{avg}=\int _0^\infin vP(v)dv=\sqrt{\frac{8RT}{\pi M}}\,(\text{average speed})
-\\
-\,
-\\
-v_{rms}
-$$
-
-##### $\text{Heat Transfer Mechanisms}$
-
-$$
-P_{cond}=\frac{Q}{t}=kA\frac{T_H-T_C}{L}
 $$
 
 #### $$\text{Entropy and the Second Law of Thermodynamics}$$
