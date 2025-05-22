@@ -757,16 +757,40 @@ $$
 \,
 \\
 \eta _C=1 - \frac{T_L}{T_H}\text{ (Efficiency of Carnot Engine)}
-$$
-
-##### $\text{Refrigerators and Real Engines}$
-
-$$
+\\
+\,
+\\
+W = nR(T_H-T_L)\ln (\frac{V_b}{V_a})
+\\
+\,
+\\
+Q_H=nRT_H\ln (\frac{V_b}{V_a})
+\\
+\,
+\\
 \eta = \frac{W}{Q} \lt \eta _C \text{ (For Stirling Efficiency)}
 \\
 \,
 \\
 \varepsilon _A \le 1-\frac{T_L}{T_H} = \varepsilon _C\text{ (For Arbitrary Engine Efficiency)}
+$$
+
+##### $\text{Refrigerators and Real Engines}$
+
+$$
+K = \frac{\text{what we want}}{\text{what we pay for}}=\frac{|Q_H|}{|W|}\text{ (any refrigerator)}
+\\
+\,
+\\
+W = nR(T_L-T_H)\ln (\frac{V_b}{V_a})
+\\
+\,
+\\
+Q_H=-nRT_H\ln (\frac{V_b}{V_a})
+\\
+\,
+\\
+K_C=\frac{T_H}{T_L-T_H}\text{ (Carnot refrigerator)}
 $$
 
 ##### $\text{A Statistical View of Entropy}$
@@ -811,4 +835,4 @@ $$
 - $\text{diatomic：双原子}$
 - $\text{adiabatic：绝热}$
 - $\text{isothermal：等温}$
-- $\text{}$
+- $\text{isentropic：等熵}$
