@@ -72,7 +72,9 @@
 
 ##### $$\lim_{x\rightarrow a}f(g(x))=f\left(\lim_{x\rightarrow a}g(x)\right)$$
 
-### $Intergration$
+---
+
+### $$Intergration$$
 
 
 以下是一些常用的积分公式，涵盖了三角函数、分子分母次数不等、反三角函数和双曲三角函数等常见情况：
@@ -142,7 +144,7 @@
 
 - 反余弦函数：
   \[
-  \int \frac{dx}{\sqrt{1 - x^2}} = \arccos x + C
+  \int - \frac{dx}{\sqrt{1 - x^2}} = \arccos x + C
   \]
 
 - 反正切函数：
@@ -152,7 +154,7 @@
 
 - 反余切函数：
   \[
-  \int \frac{dx}{x^2 + 1} = \text{arccot}\,x + C
+  \int - \frac{dx}{x^2 + 1} = \text{arccot}\,x + C
   \]
 
 ### 4. 双曲三角函数积分
