@@ -380,12 +380,49 @@ strategies.
 
 ##### $\text{Why is personalized medicine important}$
 
+- Personalized medicine
+  - Special needs:
+    - Precise and early diagnosis
+    - Develop of orpham drugs
+    - Gene therapy
+- AI assisted drug screening
+- Rare disease
+  - Affect small number of people(<1:2000,~300 million)
+  - More than 7000 types of rare dieases
+  - 80% have a genetic cause
+  - 70% in childhood
+  - 95% lack approved treatments
+  - the average time for an accurate diagnosis is 4~8 years
+  - about 30% of children with a rare disease die before 5 years.
+
 ##### $\text{How can AI assist in drug screening and drug development}$
 
-##### $\text{The common types of big data in biotechnology and the significance of these omics analyses}$
+- Data search
+- Machine learning
+
+##### $\text{The common types of big data in biotechnology} \\ \text{and the significance of these omics analyses}$
+
+- Internet of Medical Things (IoMT)
+- Digital twins
 
 ##### $\text{The five functional classes for ecological engineering designs}$
 
+- Ecosystem utilized to reduce/solve pollution problem.
+- Ecosystem imitated or copied to address resource problem.
+- Ecosystem recovered after disturbance.
+- Ecosystem modified in ecologically sound way.
+- Ecosystems used for benefit without destroying balance
+
 ##### $\text{The potential uses of brain-computer interfaces}$
 
+- Telepathy 心灵感应
+- Blindsight 盲视
+
 ##### $\text{The main steps involved in the functioning of Neuralink's brain-machine}$
+
+- Chip implanting
+- Signal acquisition
+- Signal processing
+- Command generation
+- Execution and feedback
+- Learning and optimization
